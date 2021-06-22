@@ -1,2 +1,0 @@
-# AhmedAlbarghouti.github.io
-Website
