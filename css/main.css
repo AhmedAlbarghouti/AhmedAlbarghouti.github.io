@@ -161,6 +161,10 @@ header ul button {
      object-fit: cover;
 }
 
+.onclick {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .animation {
     display: none;
