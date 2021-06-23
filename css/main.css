@@ -52,6 +52,24 @@ header ul a {
   margin: 1.5em 2em;
 }
 
+header ul a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #060606;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+header ul a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 header ul button {
   font-size: 24px;
   margin: 0.7em 4em;
@@ -136,7 +154,7 @@ header ul button {
 }
 
 .featured-project {
-  background-color: #3D3D3D;
+  background-color: #3d3d3d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -5,12 +5,11 @@ body {
   font-family: "Crimson Pro";
   height: 100vh;
   margin: 0;
-  
 }
 
 a {
   text-decoration: none;
-  color:#060606;
+  color: #060606;
 }
 img {
   width: 100;
@@ -21,37 +20,47 @@ ul {
   padding: 0;
 }
 
-.nav-container{
+.nav-container {
   background: #ededed;
-  
-  
-  
 }
-header{
-  
-  
+header {
   display: flex;
-  
+
   justify-content: space-between;
-  
-  
-  .logo{
-    
+
+  .logo {
     font-weight: bold;
     margin: 1.5em 5em 0 4em;
     font-size: 26px;
   }
 
-  ul{
+  ul {
     display: flex;
 
-    a{
+    a {
       display: block;
       font-size: 24px;
       margin: 1.5em 2em;
     }
-    button{
-     
+
+    a:after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+
+      background: #060606;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after {
+      width: 100%;
+      left: 0;
+    }
+
+    button {
       font-size: 24px;
       margin: 0.7em 4em;
       border-width: 1px;
@@ -63,119 +72,102 @@ header{
       height: 64px;
     }
   }
-  
 }
 
-.hero{
+.hero {
   display: flex;
   justify-content: center;
 
-  lottie-player{
+  lottie-player {
     margin-top: 1.5em;
   }
-
 }
 
-.welcome-animation{
+.welcome-animation {
   display: flex;
   flex: 2;
   padding: 100px;
-  
 }
 
-.welcome{
-  
+.welcome {
   color: #060606;
   font-size: 70px;
   flex: 2;
-  
+
   padding-left: 100px;
 
-  h2{
+  h2 {
     font-weight: normal;
     font-size: 50px;
-    
   }
 }
 
-.featured-project-info{
-  
+.featured-project-info {
   color: #ededed;
   display: flex;
   flex-direction: column;
 
-  h2{
+  h2 {
     font-weight: normal;
     font-size: 45px;
     margin: 50px 0 0 50px;
   }
 
-  h1{
+  h1 {
     font-weight: bold;
     font-size: 50px;
     margin: 50px 0 0 50px;
 
-
-    img{
+    img {
       width: 40px;
       height: 40px;
       margin: 20px;
     }
   }
 
-  p{
+  p {
     margin: 50px 20px 0 50px;
     font-size: 30px;
   }
-
 }
 
-.featured-project{
-  background-color: #3D3D3D;
-  
+.featured-project {
+  background-color: #3d3d3d;
+
   display: flex;
   flex-direction: row;
-  
 }
 
-.featured-project-images{
+.featured-project-images {
   display: flex;
-  
 }
 
 .featured-image-card {
   margin: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 350px;
   height: 650px;
   transition: 0.3s;
   border-style: groove;
-  border-width:20px;
-  
+  border-width: 20px;
 
-  img{
+  img {
     width: 100%;
     height: 650px;
     object-fit: cover;
   }
 }
 
-.featured-image-card:hover{
-  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.8);
+.featured-image-card:hover {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
-.onclick{
+.onclick {
   cursor: pointer;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
- 
-  .animation{
-      display: none;
-
+  .animation {
+    display: none;
   }
-  
 }
