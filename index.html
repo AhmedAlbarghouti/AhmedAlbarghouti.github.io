@@ -7,78 +7,76 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Ahmed Albarghouti Portfolio</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
   </head>
   <body>
-    <section>
+    <section id="landing">
       <div class="landing">
         <div class="nav-container">
           <header>
             <a href="index.html" class="logo">Ahmed Albarghouti</a>
-    
+
             <nav>
               <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#feature-skill">Projects</a></li>
                 <li><a href="#">Contact</a></li>
                 <form method="get" action="assets/Ahmed A Resume.pdf">
-                  <li><button type="submit" class="onclick" >Download Resume</button></a></li>
+                  <a href="/assets/Ahmed A Resume.pdf" download
+                    >Download Resume</a
+                  >
+                  <li></li>
                 </form>
-                
               </ul>
             </nav>
           </header>
-          
         </div>
-    
+
         <div class="hero">
           <div class="welcome">
             <h1>Hey, I'm Ahmed</h1>
-            <h2>Web and Software Developer </h2>
-    
+            <h2>Web and Software Developer</h2>
+
             <h2>based in Ottawa, Canada.</h2>
 
-            <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_vejj8cpm.json"  background="transparent"  speed="0.5"  style="width: 100px; height: 300px;"  loop  autoplay></lottie-player>
+            <lottie-player
+              src="https://assets10.lottiefiles.com/packages/lf20_dxpqb9rg.json"
+              background="transparent"
+              speed="0.5"
+              style="width: 100px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
           </div>
-          
+
           <div class="welcome-animation">
-            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_1LhsaB.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
-          </div>
-        </div>
-         
-
-      </div>
-
-
-    </section>
-    <section id="featured-project-section">
-      <div class="featured-project">
-        <div class="featured-project-info">
-          <h2>Featured Project</h1>
-          <h1>React weather app <a href="https://github.com/AhmedAlbarghouti"><img src="/images/github.svg" alt="github" c></a></h1>
-          
-          <p>Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit. Aenean commodo ligula eget dolor. 
-           Aenean massa</p>
-           
-        </div>
-        <div class="featured-project-images">
-          <div class="featured-image-card">
-            <img src="images/projects/featured/weather app official.png" alt="">
-          </div>
-          <div class="featured-image-card">
-            <img src="images/projects/featured/weather app warm.png" alt="">
-          </div>
-          <div class="featured-image-card">
-            <img src="images/projects/featured/weather app cold.png" alt="">
+            <lottie-player
+              src="https://assets2.lottiefiles.com/packages/lf20_1LhsaB.json"
+              background="transparent"
+              speed="1"
+              style="width: 500px; height: 500px"
+              loop
+              autoplay
+            ></lottie-player>
           </div>
         </div>
       </div>
-      
     </section>
-    
-    
 
-   
+    <section id="featured">
+      <div class="left">
+        <p class="subtitle">Featured Project</p>
+        <p class="project-title">Featured Project Title</p>
+        <p class="project-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          culpa ea consectetur animi adipisci nostrum iste reprehenderit cum
+          molestias! Voluptate aperiam explicabo saepe dignissimos illum eveniet
+          quos adipisci accusantium hic!
+        </p>
+      </div>
+      <div class="right">
+        <img src="images/projects/featured/weather app cold.png" alt="featured project image" class="project-image">
+
+      </div>
+    </section>
   </body>
 </html>
