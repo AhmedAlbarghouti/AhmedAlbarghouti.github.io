@@ -204,4 +204,66 @@ body {
 .projects .project .left {
   margin-right: 20em;
 }
+
+.skills {
+  background: #6700ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.skills-container {
+  background: white;
+  padding-right: 2em;
+  padding-left: 2em;
+  border-radius: 1em;
+  margin: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.skills-container ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.skills-container .skill-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6e0ff6;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+}
+
+.skills-container .skill-icon-container img {
+  height: 100px;
+  margin: 0 2em 2em 2em;
+}
+
+.skills-container .skill-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skills-container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=main.css.map */

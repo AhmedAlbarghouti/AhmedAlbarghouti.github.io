@@ -8,10 +8,9 @@ body {
   overflow-x: hidden;
 }
 
-.social-icon{
-width: 30px;
-height: 30px;
-
+.social-icon {
+  width: 30px;
+  height: 30px;
 }
 
 #landing {
@@ -20,7 +19,6 @@ height: 30px;
   a {
     text-decoration: none;
     color: #ededed;
-    
   }
 
   ul {
@@ -164,14 +162,65 @@ height: 30px;
 
 .projects {
   padding: 4em 100px;
-  
- 
-  .project{
+
+  .project {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    .left{
+    .left {
       margin-right: 20em;
     }
   }
+}
+
+.skills {
+  background: #6700ee;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.skills-container {
+  background: white;
+
+  padding-right: 2em;
+  padding-left: 2em;
+  border-radius: 1em;
+  margin: 3em;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .skill-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6e0ff6;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+  }
+
+  .skill-icon-container {
+    img {
+      height: 100px;
+      margin: 0 2em 2em 2em;
+    }
+  }
+
+  .skill-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.skills-container:hover {
+  transform: scale(1.1);
 }
