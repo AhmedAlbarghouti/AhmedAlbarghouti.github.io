@@ -14,7 +14,7 @@ body {
 }
 
 .landing {
-  background-color: #6e0ff6;
+  background-color: #581b98;
   width: 100;
   height: 100vh;
 }
@@ -34,7 +34,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #6700ee;
+  background: #6920b8;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -143,7 +143,7 @@ body {
 .featured .featured-subtitle {
   text-transform: uppercase;
   font-weight: bold;
-  color: #6e0ff6;
+  color: #9c1de7;
   letter-spacing: 0.2em;
   font-size: 20px;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 .project-title {
-  color: #060606;
+  color: #f3558e;
   font-weight: bold;
   font-size: 25px;
   margin-top: -0.4em;
@@ -206,7 +206,7 @@ body {
 }
 
 .skills {
-  background: #6700ee;
+  background: #581b98;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +216,8 @@ body {
 }
 
 .skills .skills-container {
-  background: white;
+  background: #6920b8;
+  color: #ededed;
   padding-right: 2em;
   padding-left: 2em;
   border-radius: 1em;
@@ -247,7 +248,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  color: #6e0ff6;
+  color: #f3558e;
   letter-spacing: 0.1em;
   font-size: 15px;
 }
@@ -268,7 +269,7 @@ body {
 }
 
 .about {
-  background: #6700ee;
+  background: #581b98;
   color: #ededed;
 }
 
@@ -307,6 +308,7 @@ body {
 .about .about-info .about-desc .about-info-header {
   font-size: 50px;
   font-weight: bold;
+  color: #f3558e;
 }
 
 .about .about-info .about-desc .about-more-info {
@@ -334,7 +336,11 @@ body {
   width: 200px;
   height: 120px;
   border-radius: 3%;
-  background: #6e0ff6;
+  background: #6920b8;
+}
+
+.about .about-info .info-card h1 {
+  color: #f3558e;
 }
 
 .contact {
@@ -377,7 +383,7 @@ body {
 .contact .contact-container .contact-info h1 {
   text-transform: uppercase;
   font-weight: bold;
-  color: #6e0ff6;
+  color: #6920b8;
   letter-spacing: 0.2em;
   font-size: 20px;
 }
