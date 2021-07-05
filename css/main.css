@@ -177,6 +177,13 @@ body {
   font-size: 0.85em;
   line-height: 1.8em;
   font-weight: 500;
+  
+}
+
+.project{
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .project-image {
@@ -184,6 +191,7 @@ body {
   width: 500px;
   border-radius: 2%;
   margin-right: 10em;
+  
 }
 
 .projects {
